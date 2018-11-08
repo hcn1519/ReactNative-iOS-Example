@@ -1,0 +1,605 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "8RNModule14ViewControllerC"
+provides-member:
+- ["8RNModule14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "highScoreBtnTapped"
+- "viewDidLoad"
+depends-top-level:
+- !private "AnyObject"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "NSDictionary"
+- !private "NSLog"
+- !private "NSObject"
+- !private "RCTRootView"
+- !private "StringLiteralType"
+- "UIViewController"
+- !private "URL"
+- "ViewController"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["s7CVarArgP", "NSLog"]
+- !private ["s7CVarArgP", "RCTRootView"]
+- !private ["s7CVarArgP", "UIViewController"]
+- !private ["s7CVarArgP", "URL"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "present"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSLog"]
+- !private ["s28CustomDebugStringConvertibleP", "RCTRootView"]
+- !private ["s28CustomDebugStringConvertibleP", "UIViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "URL"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "present"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSLog"]
+- !private ["s23CustomStringConvertibleP", "RCTRootView"]
+- !private ["s23CustomStringConvertibleP", "UIViewController"]
+- !private ["s23CustomStringConvertibleP", "URL"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "present"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "NSLog"]
+- !private ["SQ", "RCTRootView"]
+- !private ["SQ", "UIViewController"]
+- !private ["SQ", "URL"]
+- ["SQ", ""]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "present"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "NSLog"]
+- !private ["SH", "RCTRootView"]
+- !private ["SH", "UIViewController"]
+- !private ["SH", "URL"]
+- ["SH", ""]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "present"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "NSLog"]
+- !private ["So8NSCodingP", "RCTRootView"]
+- !private ["So8NSCodingP", "UIViewController"]
+- !private ["So8NSCodingP", "URL"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "present"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "NSLog"]
+- !private ["So26NSExtensionRequestHandlingP", "RCTRootView"]
+- !private ["So26NSExtensionRequestHandlingP", "UIViewController"]
+- !private ["So26NSExtensionRequestHandlingP", "URL"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "present"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "AnyObject"]
+- !private ["So8NSObjectC", "NSDictionary"]
+- !private ["So8NSObjectC", "NSLog"]
+- !private ["So8NSObjectC", "NSObject"]
+- !private ["So8NSObjectC", "RCTRootView"]
+- !private ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "URL"]
+- ["So8NSObjectC", "highScoreBtnTapped"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "present"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "NSLog"]
+- !private ["So8NSObjectP", "RCTRootView"]
+- !private ["So8NSObjectP", "UIViewController"]
+- !private ["So8NSObjectP", "URL"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "present"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So12RCTComponentP", "init"]
+- !private ["So11RCTRootViewC", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So21UIAppearanceContainerP", "NSLog"]
+- !private ["So21UIAppearanceContainerP", "RCTRootView"]
+- !private ["So21UIAppearanceContainerP", "UIViewController"]
+- !private ["So21UIAppearanceContainerP", "URL"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "present"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "NSLog"]
+- !private ["So18UIContentContainerP", "RCTRootView"]
+- !private ["So18UIContentContainerP", "UIViewController"]
+- !private ["So18UIContentContainerP", "URL"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "present"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So18UIFocusEnvironmentP", "NSLog"]
+- !private ["So18UIFocusEnvironmentP", "RCTRootView"]
+- !private ["So18UIFocusEnvironmentP", "UIViewController"]
+- !private ["So18UIFocusEnvironmentP", "URL"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "present"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSLog"]
+- !private ["So30UIPasteConfigurationSupportingP", "RCTRootView"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "URL"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "present"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "AnyObject"]
+- !private ["So11UIResponderC", "NSDictionary"]
+- !private ["So11UIResponderC", "NSLog"]
+- !private ["So11UIResponderC", "NSObject"]
+- !private ["So11UIResponderC", "RCTRootView"]
+- !private ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "URL"]
+- ["So11UIResponderC", "highScoreBtnTapped"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "present"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NSLog"]
+- !private ["So30UIResponderStandardEditActionsP", "RCTRootView"]
+- !private ["So30UIResponderStandardEditActionsP", "UIViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "URL"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "present"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "NSLog"]
+- !private ["So16UIStateRestoringP", "RCTRootView"]
+- !private ["So16UIStateRestoringP", "UIViewController"]
+- !private ["So16UIStateRestoringP", "URL"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "present"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "NSLog"]
+- !private ["So18UITraitEnvironmentP", "RCTRootView"]
+- !private ["So18UITraitEnvironmentP", "UIViewController"]
+- !private ["So18UITraitEnvironmentP", "URL"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "present"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "NSLog"]
+- !private ["So23UIUserActivityRestoringP", "RCTRootView"]
+- !private ["So23UIUserActivityRestoringP", "UIViewController"]
+- !private ["So23UIUserActivityRestoringP", "URL"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "present"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "init"]
+- !private ["So16UIViewControllerC", "AnyObject"]
+- !private ["So16UIViewControllerC", "NSDictionary"]
+- !private ["So16UIViewControllerC", "NSLog"]
+- !private ["So16UIViewControllerC", "NSObject"]
+- !private ["So16UIViewControllerC", "RCTRootView"]
+- !private ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "URL"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "highScoreBtnTapped"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "present"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["8RNModule14ViewControllerC", "AnyObject"]
+- !private ["8RNModule14ViewControllerC", "NSDictionary"]
+- !private ["8RNModule14ViewControllerC", "NSLog"]
+- !private ["8RNModule14ViewControllerC", "NSObject"]
+- !private ["8RNModule14ViewControllerC", "RCTRootView"]
+- !private ["8RNModule14ViewControllerC", "UIViewController"]
+- !private ["8RNModule14ViewControllerC", "URL"]
+- ["8RNModule14ViewControllerC", "highScoreBtnTapped"]
+- ["8RNModule14ViewControllerC", "init"]
+- !private ["8RNModule14ViewControllerC", "present"]
+- ["8RNModule14ViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLog"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RCTRootView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "URL"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "present"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So12RCTComponentP"
+- !private "So11RCTRootViewC"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- "8RNModule14ViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/yoga/yoga.framework/Headers/Yoga.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/yoga/yoga.framework/Headers/yoga-umbrella.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/React-umbrella.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModuleData.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSafeAreaViewLocalData.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTComponentData.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUITextField.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTReloadCommand.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBridgeMethod.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModuleMethod.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTClipboard.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurface.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTImageSource.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSourceCode.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceSizeMeasureMode.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAsyncLocalStorage.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceStage.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBridge.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTProfile.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBridgeModule.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTFileReaderModule.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWebSocketModule.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBorderStyle.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTJSStackFrame.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextDecorationLineType.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAnimationType.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTFrameUpdate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBridgeDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTURLRequestDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBackedTextInputDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRootViewDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceRootShadowViewDelegate.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAppState.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBridge+Private.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/UIView+Private.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNetworking.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/NSTextStorage+FontScaling.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTJSCErrorHandling.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTiming.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInvalidating.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBorderDrawing.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTLog.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSwitch.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTFPSGraph.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDisplayLink.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/fishhook.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMultipartDataTask.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNetworkTask.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceView+Internal.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTShadowView+Internal.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRootViewInternal.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTI18nUtil.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollableProtocol.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAutoInsetsProtocol.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBackedTextInputViewProtocol.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSegmentedControl.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRefreshControl.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTabBarItem.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNavItem.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTConvert+Transform.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextTransform.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPlatform.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTVersion.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTConvert+CoreLocation.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTLayoutAnimation.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextSelection.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPackagerConnection.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInspectorPackagerConnection.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDeviceInfo.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTErrorInfo.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNetInfo.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTLayoutAnimationGroup.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTabBar.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/RNModule/Counter/RNModule-Bridging-Header.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMultipartStreamReader.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTJavaScriptLoader.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSlider.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBundleURLProvider.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUIManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBlobManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSwitchManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModalManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSegmentedControlManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRefreshControlManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTabBarItemManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNavItemManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTI18nManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTabBarManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTStatusBarManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSliderManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPickerManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDatePickerManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNavigatorManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTExceptionsManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAlertManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSafeAreaViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWKWebViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWebViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMaskedViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTActivityIndicatorViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTProgressViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollContentViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModalHostViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSinglelineTextInputViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMultilineTextInputViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBaseTextInputViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBaseTextViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTVirtualTextViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRawTextViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInputAccessoryViewManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAccessibilityManager.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPerformanceLogger.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTEventDispatcher.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPicker.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDatePicker.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTouchHandler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTURLRequestHandler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTHTTPRequestHandler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDataRequestHandler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTFileRequestHandler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTJSCSamplingProfiler.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRedBoxExtraDataViewController.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWrapperViewController.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModalHostViewController.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInspectorDevServerHelper.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTManagedPointer.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBackedTextInputDelegateAdapter.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTEventEmitter.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTKeyboardObserver.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTErrorCustomizer.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNavigator.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUIManagerObserverCoordinator.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInspector.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWebSocketExecutor.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTJavaScriptExecutor.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTKeyCommands.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDefines.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextAttributes.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDevSettings.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUIUtils.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUtils.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUIManagerUtils.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTParserUtils.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/yoga/yoga.framework/Headers/YGEnums.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/yoga/yoga.framework/Headers/YGMacros.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMacros.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPointerEvents.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/UIView+React.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSRWebSocket.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTReconnectingWebSocket.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTPackagerClient.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTComponent.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInputAccessoryViewContent.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTouchEvent.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTFont.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTAssert.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTConvert.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTCxxConvert.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTShadowView+Layout.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTLayout.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTConvert+Text.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDevMenu.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSafeAreaView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWKWebView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTWebView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMaskedView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTDevLoadingView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceHostingView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTActivityIndicatorView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollContentView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRootContentView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRootView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceRootView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceHostingProxyRootView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTModalHostView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSinglelineTextInputView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTMultilineTextInputView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBaseTextInputView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTUITextView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSafeAreaShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTScrollContentShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRootShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTSurfaceRootShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBaseTextInputShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTTextShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTBaseTextShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTVirtualTextShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRawTextShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInputAccessoryShadowView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTInputAccessoryView.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTRedBox.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Headers/RCTNullability.h"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/yoga/yoga.framework/Modules/module.modulemap"
+- "/Users/changnam/Desktop/rn/RNModule/ios/build/Build/Products/Debug-iphonesimulator/React/React.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "a0c46fd1b5096330371d8c6339f1fac1"

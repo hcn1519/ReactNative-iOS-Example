@@ -12,6 +12,8 @@
 		7E60D4E021907915004C63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4DE21907915004C63DB /* Main.storyboard */; };
 		7E60D4E221907916004C63DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4E121907916004C63DB /* Assets.xcassets */; };
 		7E60D4E521907916004C63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4E321907916004C63DB /* LaunchScreen.storyboard */; };
+		7E6F021E219487B500F4218E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F021D219487B500F4218E /* Counter.swift */; };
+		7E6F0221219487E000F4218E /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F0220219487E000F4218E /* Counter.m */; };
 		EE61DE0B066C0292D6C3E25F /* Pods_RNModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F93CC191DEF84ACDF13360 /* Pods_RNModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,9 @@
 		7E60D4E121907916004C63DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E60D4E421907916004C63DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E60D4E621907916004C63DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E6F021D219487B500F4218E /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNModule-Bridging-Header.h"; sourceTree = "<group>"; };
+		7E6F0220219487E000F4218E /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
 		EBC0418784F0602E7D1097DB /* Pods-RNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.release.xcconfig"; sourceTree = "<group>"; };
 		FDE4F7C694C964C6FC3BECB8 /* Pods-RNModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +66,7 @@
 		7E60D4D921907915004C63DB /* RNModule */ = {
 			isa = PBXGroup;
 			children = (
+				7E6F021C219487A100F4218E /* Counter */,
 				7E60D4DA21907915004C63DB /* AppDelegate.swift */,
 				7E60D4DC21907915004C63DB /* ViewController.swift */,
 				7E60D4DE21907915004C63DB /* Main.storyboard */,
@@ -69,6 +75,16 @@
 				7E60D4E621907916004C63DB /* Info.plist */,
 			);
 			path = RNModule;
+			sourceTree = "<group>";
+		};
+		7E6F021C219487A100F4218E /* Counter */ = {
+			isa = PBXGroup;
+			children = (
+				7E6F021D219487B500F4218E /* Counter.swift */,
+				7E6F0220219487E000F4218E /* Counter.m */,
+				7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */,
+			);
+			path = Counter;
 			sourceTree = "<group>";
 		};
 		CE128A80D4F124A503CFC7D4 /* Frameworks */ = {
@@ -122,6 +138,7 @@
 				TargetAttributes = {
 					7E60D4D621907915004C63DB = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -216,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6F0221219487E000F4218E /* Counter.m in Sources */,
 				7E60D4DD21907915004C63DB /* ViewController.swift in Sources */,
 				7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */,
+				7E6F021E219487B500F4218E /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +383,7 @@
 			baseConfigurationReference = FDE4F7C694C964C6FC3BECB8 /* Pods-RNModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6XUQ3PPN9;
 				INFOPLIST_FILE = RNModule/Info.plist;
@@ -373,6 +393,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcn1519.RNModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/Counter/RNModule-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -383,6 +405,7 @@
 			baseConfigurationReference = EBC0418784F0602E7D1097DB /* Pods-RNModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W6XUQ3PPN9;
 				INFOPLIST_FILE = RNModule/Info.plist;
@@ -392,6 +415,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcn1519.RNModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/Counter/RNModule-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
