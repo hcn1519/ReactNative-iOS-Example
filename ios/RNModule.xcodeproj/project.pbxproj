@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F58219815DD00CA27BF /* FlatListViewController.swift */; };
+		7E091F5D21981DEA00CA27BF /* RCTRootView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */; };
+		7E091F5F21981F6E00CA27BF /* RNBridgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */; };
 		7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60D4DA21907915004C63DB /* AppDelegate.swift */; };
 		7E60D4DD21907915004C63DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60D4DC21907915004C63DB /* ViewController.swift */; };
 		7E60D4E021907915004C63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4DE21907915004C63DB /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		21F93CC191DEF84ACDF13360 /* Pods_RNModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RNModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E091F58219815DD00CA27BF /* FlatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatListViewController.swift; sourceTree = "<group>"; };
+		7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCTRootView+extension.swift"; sourceTree = "<group>"; };
+		7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeManager.swift; sourceTree = "<group>"; };
 		7E60D4D721907915004C63DB /* RNModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E60D4DA21907915004C63DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E60D4DC21907915004C63DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +51,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E091F572198152600CA27BF /* FlatList */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FlatList;
+			sourceTree = "<group>";
+		};
+		7E091F5A219816B600CA27BF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7E091F58219815DD00CA27BF /* FlatListViewController.swift */,
+				7E60D4DC21907915004C63DB /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		7E091F5B21981DDC00CA27BF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		7E60D4CE21907915004C63DB = {
 			isa = PBXGroup;
 			children = (
@@ -66,13 +96,17 @@
 		7E60D4D921907915004C63DB /* RNModule */ = {
 			isa = PBXGroup;
 			children = (
+				7E091F5B21981DDC00CA27BF /* extension */,
+				7E091F5A219816B600CA27BF /* ViewController */,
+				7E091F572198152600CA27BF /* FlatList */,
 				7E6F021C219487A100F4218E /* Counter */,
 				7E60D4DA21907915004C63DB /* AppDelegate.swift */,
-				7E60D4DC21907915004C63DB /* ViewController.swift */,
 				7E60D4DE21907915004C63DB /* Main.storyboard */,
 				7E60D4E121907916004C63DB /* Assets.xcassets */,
 				7E60D4E321907916004C63DB /* LaunchScreen.storyboard */,
 				7E60D4E621907916004C63DB /* Info.plist */,
+				7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */,
+				7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */,
 			);
 			path = RNModule;
 			sourceTree = "<group>";
@@ -82,7 +116,6 @@
 			children = (
 				7E6F021D219487B500F4218E /* Counter.swift */,
 				7E6F0220219487E000F4218E /* Counter.m */,
-				7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */,
 			);
 			path = Counter;
 			sourceTree = "<group>";
@@ -233,9 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E091F5F21981F6E00CA27BF /* RNBridgeManager.swift in Sources */,
+				7E091F5D21981DEA00CA27BF /* RCTRootView+extension.swift in Sources */,
 				7E6F0221219487E000F4218E /* Counter.m in Sources */,
 				7E60D4DD21907915004C63DB /* ViewController.swift in Sources */,
 				7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */,
+				7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */,
 				7E6F021E219487B500F4218E /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,7 +429,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcn1519.RNModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/Counter/RNModule-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/RNModule-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -415,7 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcn1519.RNModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/Counter/RNModule-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/RNModule-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
