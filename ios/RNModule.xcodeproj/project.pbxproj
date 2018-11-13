@@ -17,6 +17,7 @@
 		7E60D4E521907916004C63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4E321907916004C63DB /* LaunchScreen.storyboard */; };
 		7E6F021E219487B500F4218E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F021D219487B500F4218E /* Counter.swift */; };
 		7E6F0221219487E000F4218E /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F0220219487E000F4218E /* Counter.m */; };
+		CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */; };
 		EE61DE0B066C0292D6C3E25F /* Pods_RNModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F93CC191DEF84ACDF13360 /* Pods_RNModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		7E6F021D219487B500F4218E /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNModule-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E6F0220219487E000F4218E /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionListViewController.swift; sourceTree = "<group>"; };
 		EBC0418784F0602E7D1097DB /* Pods-RNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.release.xcconfig"; sourceTree = "<group>"; };
 		FDE4F7C694C964C6FC3BECB8 /* Pods-RNModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -51,18 +53,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7E091F572198152600CA27BF /* FlatList */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = FlatList;
-			sourceTree = "<group>";
-		};
 		7E091F5A219816B600CA27BF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				7E091F58219815DD00CA27BF /* FlatListViewController.swift */,
 				7E60D4DC21907915004C63DB /* ViewController.swift */,
+				CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -98,7 +94,6 @@
 			children = (
 				7E091F5B21981DDC00CA27BF /* extension */,
 				7E091F5A219816B600CA27BF /* ViewController */,
-				7E091F572198152600CA27BF /* FlatList */,
 				7E6F021C219487A100F4218E /* Counter */,
 				7E60D4DA21907915004C63DB /* AppDelegate.swift */,
 				7E60D4DE21907915004C63DB /* Main.storyboard */,
@@ -212,8 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-RNModule/Pods-RNModule-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
@@ -223,8 +216,6 @@
 				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
@@ -242,15 +233,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RNModule-checkManifestLockResult.txt",
 			);
@@ -269,6 +256,7 @@
 				7E091F5F21981F6E00CA27BF /* RNBridgeManager.swift in Sources */,
 				7E091F5D21981DEA00CA27BF /* RCTRootView+extension.swift in Sources */,
 				7E6F0221219487E000F4218E /* Counter.m in Sources */,
+				CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */,
 				7E60D4DD21907915004C63DB /* ViewController.swift in Sources */,
 				7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */,
 				7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */,
@@ -421,8 +409,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6XUQ3PPN9;
+				DEVELOPMENT_TEAM = K9UP278937;
 				INFOPLIST_FILE = RNModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,8 +432,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W6XUQ3PPN9;
+				DEVELOPMENT_TEAM = K9UP278937;
 				INFOPLIST_FILE = RNModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
