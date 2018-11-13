@@ -3756,6 +3756,13 @@ react-devtools-core@^3.4.0:
     shell-quote "^1.6.1"
     ws "^3.3.1"
 
+react-native-tableview@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/react-native-tableview/-/react-native-tableview-2.4.1.tgz#3f6367fabb981cd4d60d26e73c974f4f7ae673b6"
+  integrity sha512-TrCUPYbWFBYGg0ZBZ6TDEwBA1+xksSk0ffpwMJNav9q6GQOD0t6eMXCkHMxA5vkBo3+i+fwWQd0sSVHYdZuPbA==
+  dependencies:
+    prop-types "^15.6.2"
+
 react-native@^0.57.4:
   version "0.57.4"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.57.4.tgz#cb7ba78e8be420737868fa9a97caa897a534c893"

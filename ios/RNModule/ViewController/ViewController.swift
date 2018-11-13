@@ -37,6 +37,15 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "ToFliatListBasic", sender: nil)
     }
 
+    @IBAction func setttingBtnTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "ToSettingSectionList", sender: nil)
+    }
+    
+    @IBAction func settingTableBtnTapped(_ sender: UIButton) {
+        performSegue(withIdentifier: "ToSettingTableView", sender: nil)
+    }
+    
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ToFliatListBasic" {
             if let destination = segue.destination as? FlatListViewController {
@@ -44,6 +53,20 @@ class ViewController: UIViewController {
                                                 moduleName: "FlatListBasic",
                                                 initialProperties: nil)
                 destination.view = flatListView
+            }
+        } else if segue.identifier == "ToSettingSectionList" {
+            if let destination = segue.destination as? SettingsSectionListViewController {
+                let settingsSectionListView =  RCTRootView(RNBridgeManager.default,
+                                                           moduleName: "SettingsSectionLists",
+                                                           initialProperties: nil)
+                destination.view = settingsSectionListView
+            }
+        } else if segue.identifier == "ToSettingTableView" {
+            if let destination = segue.destination as? SettingTableViewController {
+                let rnTableView =  RCTRootView(RNBridgeManager.default,
+                                                           moduleName: "SettingTableView",
+                                                           initialProperties: nil)
+                destination.view = rnTableView
             }
         }
     }

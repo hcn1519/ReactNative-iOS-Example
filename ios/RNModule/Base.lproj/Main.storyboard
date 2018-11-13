@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s4U-dj-bDy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s4U-dj-bDy">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,19 +32,39 @@
                                     <action selector="flatListBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L0b-wm-bOg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qdi-mB-6Qe">
+                                <rect key="frame" x="138.5" y="410.5" width="97" height="30"/>
+                                <state key="normal" title="SectionList Ex"/>
+                                <connections>
+                                    <action selector="setttingBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vk6-74-KqA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpI-jR-Ku8">
+                                <rect key="frame" x="165.5" y="456.5" width="43" height="30"/>
+                                <state key="normal" title="앱 설정"/>
+                                <connections>
+                                    <action selector="settingTableBtnTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hcx-f8-utK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="7Sk-nV-qi2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="CvZ-SL-HNV"/>
+                            <constraint firstItem="SpI-jR-Ku8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PVw-FC-FKf"/>
                             <constraint firstItem="KBy-5X-hXl" firstAttribute="top" secondItem="7Sk-nV-qi2" secondAttribute="bottom" constant="16" id="PbQ-mS-4DI"/>
+                            <constraint firstItem="Qdi-mB-6Qe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="b7F-l0-CSF"/>
+                            <constraint firstItem="SpI-jR-Ku8" firstAttribute="top" secondItem="Qdi-mB-6Qe" secondAttribute="bottom" constant="16" id="en1-8p-cx6"/>
                             <constraint firstItem="7Sk-nV-qi2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gKf-Iz-lBk"/>
                             <constraint firstItem="KBy-5X-hXl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qgI-A7-D62"/>
+                            <constraint firstItem="Qdi-mB-6Qe" firstAttribute="top" secondItem="KBy-5X-hXl" secondAttribute="bottom" constant="16" id="t0A-Wn-B41"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="goP-S4-nQQ"/>
                     <connections>
                         <segue destination="vx1-Ms-r0P" kind="show" identifier="ToFliatListBasic" id="h38-l2-Zmh"/>
+                        <segue destination="ZQy-Zv-ciD" kind="show" identifier="ToSettingSectionList" id="jsj-UM-hm7"/>
+                        <segue destination="hE9-cO-NDo" kind="show" identifier="ToSettingTableView" id="hei-Lc-mib"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -64,7 +84,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NM3-fW-RC6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1888.8" y="123.68815592203899"/>
+            <point key="canvasLocation" x="1878" y="-113"/>
+        </scene>
+        <!--Setting Table View Controller-->
+        <scene sceneID="4Tq-gE-Vdv">
+            <objects>
+                <viewController id="hE9-cO-NDo" customClass="SettingTableViewController" customModule="RNModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2UK-f0-P0h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="XZ7-FV-aVe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zKU-SF-MgI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1121" y="947"/>
+        </scene>
+        <!--Settings Section List View Controller-->
+        <scene sceneID="tZw-C6-bja">
+            <objects>
+                <viewController id="ZQy-Zv-ciD" customClass="SettingsSectionListViewController" customModule="RNModule" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uhL-fv-Qkm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="E0Z-Ur-PFQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFq-Zq-QqV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1878" y="586"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="N7Q-S2-JiN">
