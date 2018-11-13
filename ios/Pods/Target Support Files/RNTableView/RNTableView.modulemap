@@ -1,0 +1,6 @@
+framework module RNTableView {
+  umbrella header "RNTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}

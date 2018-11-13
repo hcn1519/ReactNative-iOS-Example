@@ -18,6 +18,7 @@
 		7E6F021E219487B500F4218E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F021D219487B500F4218E /* Counter.swift */; };
 		7E6F0221219487E000F4218E /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F0220219487E000F4218E /* Counter.m */; };
 		CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */; };
+		CEF3A6C0219AC85D00AD9812 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */; };
 		EE61DE0B066C0292D6C3E25F /* Pods_RNModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F93CC191DEF84ACDF13360 /* Pods_RNModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNModule-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E6F0220219487E000F4218E /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
 		CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionListViewController.swift; sourceTree = "<group>"; };
+		CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		EBC0418784F0602E7D1097DB /* Pods-RNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.release.xcconfig"; sourceTree = "<group>"; };
 		FDE4F7C694C964C6FC3BECB8 /* Pods-RNModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,7 @@
 				7E091F58219815DD00CA27BF /* FlatListViewController.swift */,
 				7E60D4DC21907915004C63DB /* ViewController.swift */,
 				CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */,
+				CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-RNModule/Pods-RNModule-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
 				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RNTableView/RNTableView.framework",
 				"${BUILT_PRODUCTS_DIR}/React/React.framework",
 				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
 				"${BUILT_PRODUCTS_DIR}/yoga/yoga.framework",
@@ -219,6 +223,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RNTableView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
@@ -259,6 +264,7 @@
 				CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */,
 				7E60D4DD21907915004C63DB /* ViewController.swift in Sources */,
 				7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */,
+				CEF3A6C0219AC85D00AD9812 /* SettingTableViewController.swift in Sources */,
 				7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */,
 				7E6F021E219487B500F4218E /* Counter.swift in Sources */,
 			);
