@@ -42,7 +42,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func settingTableBtnTapped(_ sender: UIButton) {
-        performSegue(withIdentifier: "ToSettingTableView", sender: nil)
+        let vc = SettingTableViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     

@@ -10,6 +10,9 @@
 		7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F58219815DD00CA27BF /* FlatListViewController.swift */; };
 		7E091F5D21981DEA00CA27BF /* RCTRootView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */; };
 		7E091F5F21981F6E00CA27BF /* RNBridgeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */; };
+		7E5A27E8219B17110025AA85 /* RNTableViewListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A27E7219B17110025AA85 /* RNTableViewListener.swift */; };
+		7E5A27EB219B174D0025AA85 /* RNTableViewListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A27EA219B174D0025AA85 /* RNTableViewListener.m */; };
+		7E5A27ED219C64ED0025AA85 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5A27EC219C64ED0025AA85 /* DetailViewController.swift */; };
 		7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60D4DA21907915004C63DB /* AppDelegate.swift */; };
 		7E60D4DD21907915004C63DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E60D4DC21907915004C63DB /* ViewController.swift */; };
 		7E60D4E021907915004C63DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4DE21907915004C63DB /* Main.storyboard */; };
@@ -27,6 +30,9 @@
 		7E091F58219815DD00CA27BF /* FlatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatListViewController.swift; sourceTree = "<group>"; };
 		7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RCTRootView+extension.swift"; sourceTree = "<group>"; };
 		7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNBridgeManager.swift; sourceTree = "<group>"; };
+		7E5A27E7219B17110025AA85 /* RNTableViewListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNTableViewListener.swift; sourceTree = "<group>"; };
+		7E5A27EA219B174D0025AA85 /* RNTableViewListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNTableViewListener.m; sourceTree = "<group>"; };
+		7E5A27EC219C64ED0025AA85 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		7E60D4D721907915004C63DB /* RNModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E60D4DA21907915004C63DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E60D4DC21907915004C63DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +68,7 @@
 				7E60D4DC21907915004C63DB /* ViewController.swift */,
 				CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */,
 				CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */,
+				7E5A27EC219C64ED0025AA85 /* DetailViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -72,6 +79,16 @@
 				7E091F5C21981DEA00CA27BF /* RCTRootView+extension.swift */,
 			);
 			path = extension;
+			sourceTree = "<group>";
+		};
+		7E5A27E9219B17350025AA85 /* RNModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */,
+				7E5A27E7219B17110025AA85 /* RNTableViewListener.swift */,
+				7E5A27EA219B174D0025AA85 /* RNTableViewListener.m */,
+			);
+			path = RNModule;
 			sourceTree = "<group>";
 		};
 		7E60D4CE21907915004C63DB = {
@@ -95,6 +112,7 @@
 		7E60D4D921907915004C63DB /* RNModule */ = {
 			isa = PBXGroup;
 			children = (
+				7E5A27E9219B17350025AA85 /* RNModule */,
 				7E091F5B21981DDC00CA27BF /* extension */,
 				7E091F5A219816B600CA27BF /* ViewController */,
 				7E6F021C219487A100F4218E /* Counter */,
@@ -104,7 +122,6 @@
 				7E60D4E321907916004C63DB /* LaunchScreen.storyboard */,
 				7E60D4E621907916004C63DB /* Info.plist */,
 				7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */,
-				7E091F5E21981F6E00CA27BF /* RNBridgeManager.swift */,
 			);
 			path = RNModule;
 			sourceTree = "<group>";
@@ -261,11 +278,14 @@
 				7E091F5F21981F6E00CA27BF /* RNBridgeManager.swift in Sources */,
 				7E091F5D21981DEA00CA27BF /* RCTRootView+extension.swift in Sources */,
 				7E6F0221219487E000F4218E /* Counter.m in Sources */,
+				7E5A27ED219C64ED0025AA85 /* DetailViewController.swift in Sources */,
 				CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */,
 				7E60D4DD21907915004C63DB /* ViewController.swift in Sources */,
 				7E60D4DB21907915004C63DB /* AppDelegate.swift in Sources */,
 				CEF3A6C0219AC85D00AD9812 /* SettingTableViewController.swift in Sources */,
+				7E5A27E8219B17110025AA85 /* RNTableViewListener.swift in Sources */,
 				7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */,
+				7E5A27EB219B174D0025AA85 /* RNTableViewListener.m in Sources */,
 				7E6F021E219487B500F4218E /* Counter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,7 +446,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/RNModule-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -448,7 +468,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hcn1519.RNModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RNModule/RNModule-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
