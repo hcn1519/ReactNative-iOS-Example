@@ -1,9 +1,18 @@
 import React, {Component} from 'react'
 import TableView from 'react-native-tableview'
+import { NativeModules } from 'react-native'
 
 const { Section, Item } = TableView
 
 export default class SettingTableView extends Component {
+
+  tableViewEvent(event) {
+    console.log(event);
+
+    NativeModules.RNTableViewListener.didSelectTableViewCell(event.selectedSection,
+      event.selectedIndex);
+  }
+
   render() {
     return (
       <TableView
@@ -12,7 +21,7 @@ export default class SettingTableView extends Component {
         allowsMultipleSelection
         tableViewStyle={TableView.Consts.Style.Grouped}
         tableViewCellStyle={TableView.Consts.CellStyle.Subtitle}
-        onPress={event => console.log(event)}
+        onPress={(event) => {this.tableViewEvent(event)}}
       >
         <Section label="Section 0" arrow>
           <Item value="1" detail="Detail1">
