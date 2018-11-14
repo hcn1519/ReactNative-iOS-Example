@@ -26,10 +26,14 @@ class SettingTableViewController: UIViewController {
                                                object: nil)
     }
 
-    @objc func didSelectRNTableViewCell() {
-        DispatchQueue.main.async {
-            let detailVC = DetailViewController()
-            self.navigationController?.pushViewController(detailVC, animated: true)
+    @objc func didSelectRNTableViewCell(notification: Notification) {
+        if let userInfo = notification.userInfo,
+            let indexPath = userInfo["indexPath"] as? IndexPath {
+            DispatchQueue.main.async {
+                let detailVC = DetailViewController()
+                detailVC.selectedIndexPath = indexPath
+                self.navigationController?.pushViewController(detailVC, animated: true)
+            }
         }
     }
 }

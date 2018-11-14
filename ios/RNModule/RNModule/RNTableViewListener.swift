@@ -9,17 +9,14 @@
 import Foundation
 import React
 
-protocol RNTableViewListenerDelegate: class {
-    func didSelectRNTableViewCell()
-}
-
 @objc(RNTableViewListener)
 class RNTableViewListener: NSObject {
 
-    weak var delegate: RNTableViewListenerDelegate?
-
-    @objc func didSelectTableViewCell() {
+    @objc func didSelectTableViewCell(_ sectionIndex: NSInteger, rowIndex: NSInteger) {
+        
+        let indexPath = IndexPath(row: rowIndex, section: sectionIndex)
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "didSelectTableViewCell"),
-                                        object: nil, userInfo: nil)
+                                        object: nil, userInfo: ["indexPath": indexPath])
     }
 }
+//func getCount(_ name: NSString, withAge age: NSNumber) {...}

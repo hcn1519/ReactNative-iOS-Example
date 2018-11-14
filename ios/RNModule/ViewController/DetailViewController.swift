@@ -10,12 +10,14 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    var selectedIndexPath: IndexPath?
 
     let vcLabel: UILabel = {
         let label = UILabel()
-        label.text = "Welcome DetailView Controller"
         label.textColor = .black
         label.translatesAutoresizingMaskIntoConstraints = false
+        label.numberOfLines = 3
+        label.textAlignment = .center
         return label
     }()
 
@@ -24,6 +26,10 @@ class DetailViewController: UIViewController {
 
         self.view.backgroundColor = .white
         self.view.addSubview(vcLabel)
+
+        if let selectedIndexPath = selectedIndexPath {
+            vcLabel.text = "Welcome DetailView Controller\nsection: \(selectedIndexPath.section)\nrow: \(selectedIndexPath.row)"
+        }
 
         NSLayoutConstraint.activate([
             vcLabel.centerXAnchor.constraint(equalTo: self.view.centerXAnchor),

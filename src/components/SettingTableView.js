@@ -8,7 +8,9 @@ export default class SettingTableView extends Component {
 
   tableViewEvent(event) {
     console.log(event);
-    NativeModules.RNTableViewListener.didSelectTableViewCell();
+
+    NativeModules.RNTableViewListener.didSelectTableViewCell(event.selectedSection,
+      event.selectedIndex);
   }
 
   render() {
