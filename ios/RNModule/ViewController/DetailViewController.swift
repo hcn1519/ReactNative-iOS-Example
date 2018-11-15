@@ -24,6 +24,8 @@ class DetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "Swift ViewController"
+        
         self.view.backgroundColor = .white
         self.view.addSubview(vcLabel)
 

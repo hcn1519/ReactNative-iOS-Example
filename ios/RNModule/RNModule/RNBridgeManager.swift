@@ -7,22 +7,24 @@
 //
 
 import Foundation
+import React
 
-class RNBridgeManager: NSObject {
+class RNBridgeManager {
     static let `default` = RNBridgeManager()
-
-    let jsLocation = URL(string: "http://localhost:8081/index.bundle?platform=ios")
-
-    var bridge: RCTBridge?
-
-    func setupBridge(launchOptions: [AnyHashable: Any]? = nil) {
-        self.bridge = RCTBridge(delegate: self, bundleURL: self.jsLocation,
-                                moduleProvider: nil, launchOptions: launchOptions)
+    
+    let bridge: RCTBridge
+    
+    init() {
+        self.bridge = RCTBridge(delegate: ReactNativeBridgeDelegate(), launchOptions: nil)
     }
 }
 
-extension RNBridgeManager: RCTBridgeDelegate {
+class ReactNativeBridgeDelegate: NSObject, RCTBridgeDelegate {
     func sourceURL(for bridge: RCTBridge!) -> URL! {
+        #if targetEnvironment(simulator)
         return URL(string: "http://localhost:8081/index.bundle?platform=ios")
+        #else
+        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+        #endif
     }
 }

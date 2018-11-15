@@ -20,6 +20,7 @@ class SettingTableViewController: UIViewController {
         settingTableView.frame = self.view.frame
         self.view.addSubview(settingTableView)
 
+        self.title = "RN으로 생성된 TableView"
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(didSelectRNTableViewCell),
                                                name: NSNotification.Name(rawValue: "didSelectTableViewCell"),
