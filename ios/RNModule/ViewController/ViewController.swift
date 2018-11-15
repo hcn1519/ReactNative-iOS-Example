@@ -58,7 +58,7 @@ class ViewController: UIViewController {
         } else if segue.identifier == "ToSettingSectionList" {
             if let destination = segue.destination as? SettingsSectionListViewController {
                 let settingsSectionListView =  RCTRootView(RNBridgeManager.default,
-                                                           moduleName: "SettingsSectionLists",
+                                                           moduleName: "SectionListBasic",
                                                            initialProperties: nil)
                 destination.view = settingsSectionListView
             }
