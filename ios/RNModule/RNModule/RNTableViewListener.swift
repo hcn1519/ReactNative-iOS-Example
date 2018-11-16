@@ -11,7 +11,10 @@ import React
 
 @objc(RNTableViewListener)
 class RNTableViewListener: NSObject {
-
+    
+    @objc static func requiresMainQueueSetup() -> Bool {
+        return false
+    }
     @objc func didSelectTableViewCell(_ sectionIndex: NSInteger, rowIndex: NSInteger) {
         
         let indexPath = IndexPath(row: rowIndex, section: sectionIndex)

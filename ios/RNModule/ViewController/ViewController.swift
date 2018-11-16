@@ -46,6 +46,10 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(vc, animated: true)
     }
     
+    @IBAction func mySubscribeBtnTapped(_ sender: UIButton) {
+        let vc = MySubscribeTableViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ToFliatListBasic" {

@@ -20,6 +20,7 @@
 		7E60D4E521907916004C63DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E60D4E321907916004C63DB /* LaunchScreen.storyboard */; };
 		7E6F021E219487B500F4218E /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F021D219487B500F4218E /* Counter.swift */; };
 		7E6F0221219487E000F4218E /* Counter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F0220219487E000F4218E /* Counter.m */; };
+		CE8FB5E6219E9B2D005801AD /* MySubscribeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8FB5E5219E9B2D005801AD /* MySubscribeTableViewController.swift */; };
 		CEF3A6BE219AB84500AD9812 /* SettingsSectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */; };
 		CEF3A6C0219AC85D00AD9812 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */; };
 		EE61DE0B066C0292D6C3E25F /* Pods_RNModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F93CC191DEF84ACDF13360 /* Pods_RNModule.framework */; };
@@ -43,6 +44,7 @@
 		7E6F021D219487B500F4218E /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
 		7E6F021F219487E000F4218E /* RNModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNModule-Bridging-Header.h"; sourceTree = "<group>"; };
 		7E6F0220219487E000F4218E /* Counter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Counter.m; sourceTree = "<group>"; };
+		CE8FB5E5219E9B2D005801AD /* MySubscribeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySubscribeTableViewController.swift; sourceTree = "<group>"; };
 		CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionListViewController.swift; sourceTree = "<group>"; };
 		CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		EBC0418784F0602E7D1097DB /* Pods-RNModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNModule/Pods-RNModule.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				CEF3A6BD219AB84500AD9812 /* SettingsSectionListViewController.swift */,
 				CEF3A6BF219AC85D00AD9812 /* SettingTableViewController.swift */,
 				7E5A27EC219C64ED0025AA85 /* DetailViewController.swift */,
+				CE8FB5E5219E9B2D005801AD /* MySubscribeTableViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				7E091F59219815DD00CA27BF /* FlatListViewController.swift in Sources */,
 				7E5A27EB219B174D0025AA85 /* RNTableViewListener.m in Sources */,
 				7E6F021E219487B500F4218E /* Counter.swift in Sources */,
+				CE8FB5E6219E9B2D005801AD /* MySubscribeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
