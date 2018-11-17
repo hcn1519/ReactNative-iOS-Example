@@ -34,6 +34,7 @@ export default class MySubscribeTableView extends Component {
         <TableView
           style={{ flex: 1 }}
           reactModuleForCell="MySubscribeCell"
+          cellSeparatorInset={{top: 0, left: 0, bottom: 0, right: 0}}
           tableViewStyle={TableView.Consts.Style.Plain}
         >
           <Section>
@@ -42,7 +43,7 @@ export default class MySubscribeTableView extends Component {
                     title={item.title}
                     imgURL={item.imgURL}
                     action={item.action}
-                    height={100} />
+                    height={200} />
             )}
           </Section>
         </TableView>
