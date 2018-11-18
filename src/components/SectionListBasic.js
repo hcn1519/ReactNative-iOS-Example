@@ -1,13 +1,32 @@
 import React, {Component} from 'react';
-import { SectionList, StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { ActivityIndicator, SectionList, StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import SubscribeCell from './cells/SubscribeCell';
+import SubscribeHeader from './cells/SubscribeHeader';
 
 export default class SectionListBasic extends Component {
 
+  state = {
+      loading: true,
+      subscribeData: []
+  }
+
+  async componentWillMount() {
+    const response = await fetch('https://pages.oss.navercorp.com/changnam-hong/ReactNativeStudy/mySubscriptionEasy.json')
+    const data = await response.json()
+
+    this.setState({
+      loading: false,
+      subscribeData: data.MySubscription.map(item => ({
+        title: item.title,
+        imgURL: item.imgURL,
+        action: item.action
+      })),
+    });
+  }
+
   sectionList() {
     return([
-      {title: 'Title1', data: ['RN의 SectionList 예시입니다.', 'item2']},
-    {title: 'Title2', data: ['item3', 'item4']},
-    {title: 'Title3', data: ['item5', 'item6']},
+      {title: 'Title1', data: this.state.subscribeData}
     ])
   }
 
@@ -16,18 +35,25 @@ export default class SectionListBasic extends Component {
       <SafeAreaView style={styles.container}>
       <SectionList
         renderItem={({item, index, section}) => (
-          <View style={{flex: 1, backgroundColor: "rgb(247, 247, 247)"}}>
-            <Text style={{fontSize: 15, padding: 10 }} key={index}>{item}</Text>
+
+          <View style={{height: 200}}>
+            <SubscribeCell
+              title={item.title}
+              imgURL={item.imgURL}
+              action={item.action}
+              />
           </View>
         )}
         renderSectionHeader={({section: {title}}) => (
-          <View style={{flex: 1, backgroundColor: "#202020"}}>
-          <Text style={styles.sectionHeader}>{title}</Text>
+          <View style={{flex: 1, height: 100, backgroundColor: "#fafcfd"}}>
+            <SubscribeHeader />
           </View>
         )}
         sections={this.sectionList()}
         keyExtractor={(item, index) => item + index}
+        stickySectionHeadersEnabled={false}
       />
+
       </SafeAreaView>
     );
   }

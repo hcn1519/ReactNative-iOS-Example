@@ -25,6 +25,10 @@ export default class MySubscribeTableView extends Component {
     });
   }
 
+  tableViewEvent(event) {
+    console.log(event);
+  }
+
   render() {
 
     return (
@@ -32,15 +36,16 @@ export default class MySubscribeTableView extends Component {
         {this.state.loading && <ActivityIndicator />}
 
         <TableView
-          style={{ flex: 1 }}
+          style={{ flex: 1, backgroundColor: "#f2f2f2" }}
           reactModuleForCell="MySubscribeCell"
           cellSeparatorInset={{top: 0, left: 0, bottom: 0, right: 0}}
           tableViewStyle={TableView.Consts.Style.Plain}
+          onPress={(event) => {this.tableViewEvent(event)}}
         >
           <Section>
             {this.state.subscribeData.map(item =>
               <Item key={item.title}
-                    title={item.title}
+                    cellTitle={item.title}
                     imgURL={item.imgURL}
                     action={item.action}
                     height={200} />

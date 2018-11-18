@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { View, Text, Image, StyleSheet, TouchableHighlight, TouchableOpacity } from 'react-native';
 
 
-export default class MySubscribeCell extends Component {
+export default class SubscribeCell extends Component {
 
   render() {
     return (
@@ -20,12 +20,12 @@ export default class MySubscribeCell extends Component {
         <View style={styles.contentContainer}>
           <View style={styles.textContainer}>
             <Text style={styles.text}>
-              {this.props.data.cellTitle}
+              {this.props.title}
             </Text>
           </View>
 
           <View style={styles.imageContainer}>
-            <Image source={{uri: this.props.data.imgURL}}
+            <Image source={{uri: this.props.imgURL}}
                    style={styles.image} />
           </View>
         </View>
@@ -36,7 +36,7 @@ export default class MySubscribeCell extends Component {
             <TouchableOpacity>
               <View style={styles.likeBtn}>
                 <Image
-                  style={styles.iconStyle}
+                  style={{width: 20, height: 20, marginRight: 4}}
                   source={require('../../../resources/img/like.png')} />
                 <Text style={{color: "#b0b0b0"}}>343</Text>
               </View>
@@ -45,7 +45,7 @@ export default class MySubscribeCell extends Component {
             <TouchableOpacity style={styles.commentBtn}>
               <View style={{flexDirection: 'row', alignItems: 'center'}}>
                 <Image
-                  style={styles.iconStyle}
+                  style={{width: 20, height: 20, marginRight: 4}}
                   source={require('../../../resources/img/comment.png')} />
                 <Text style={{color: "#b0b0b0"}}>123</Text>
               </View>
@@ -56,7 +56,7 @@ export default class MySubscribeCell extends Component {
           <TouchableOpacity>
               <View style={styles.shareBtn}>
                 <Image
-                  style={styles.iconStyle}
+                  style={{width: 20, height: 20, marginRight: 4}}
                   source={require('../../../resources/img/share.png')} />
               </View>
           </TouchableOpacity>
@@ -69,16 +69,16 @@ export default class MySubscribeCell extends Component {
   }
 }
 
-MySubscribeCell.propTypes = {
-  cellTitle: PropTypes.string,
+SubscribeCell.propTypes = {
+  title: PropTypes.string,
   imgURL: PropTypes.string,
   action: PropTypes.string
 }
 
-MySubscribeCell.defaultProps = {
-  cellTitle: null,
-  imgURL: null,
-  action: null,
+SubscribeCell.defaultProps = {
+  title: "",
+  imgURL: "",
+  action: "",
 }
 
 const styles = StyleSheet.create({
@@ -89,12 +89,6 @@ const styles = StyleSheet.create({
     flex: 0.3,
     height: 12,
     backgroundColor: "#f2f2f2"
-  },
-  iconStyle: {
-    width: 20,
-    height: 20,
-    marginRight: 4,
-    tintColor: '#b0b0b0'
   },
   titleContainer: {
     flex: 1,
