@@ -11,10 +11,9 @@ export default class SubscribeCell extends Component {
         <View style={styles.titleContainer}>
           <Image
             style={{width: 30, height: 30, marginRight: 4, borderRadius: 15}}
-            source={{
-              uri: "https://s.pstatic.net/dthumb.phinf/?src=%22https%3A%2F%2Fs.pstatic.net%2Ftvcast.phinf%2F20151028_42%2F8qntX_1446006041620vLlzc_PNG%2FYSj1ndVdyf96.png%22&type=ff50_50&service=myfeed"
-            }} />
-          <Text>유희열의 스케치북</Text>
+            source={{uri: this.props.panImgURL}}
+            />
+          <Text>{this.props.panTitle}</Text>
         </View>
 
         <View style={styles.contentContainer}>
@@ -38,7 +37,7 @@ export default class SubscribeCell extends Component {
                 <Image
                   style={{width: 20, height: 20, marginRight: 4}}
                   source={require('../../../resources/img/like.png')} />
-                <Text style={{color: "#b0b0b0"}}>343</Text>
+                <Text style={{color: "#b0b0b0"}}>{this.props.likeCount}</Text>
               </View>
             </TouchableOpacity>
 
@@ -47,7 +46,7 @@ export default class SubscribeCell extends Component {
                 <Image
                   style={{width: 20, height: 20, marginRight: 4}}
                   source={require('../../../resources/img/comment.png')} />
-                <Text style={{color: "#b0b0b0"}}>123</Text>
+                <Text style={{color: "#b0b0b0"}}>{this.props.commentCount}</Text>
               </View>
             </TouchableOpacity>
 
@@ -72,13 +71,17 @@ export default class SubscribeCell extends Component {
 SubscribeCell.propTypes = {
   title: PropTypes.string,
   imgURL: PropTypes.string,
-  action: PropTypes.string
+  action: PropTypes.string,
+  likeCount: PropTypes.number,
+  commentCount: PropTypes.number
 }
 
 SubscribeCell.defaultProps = {
   title: "",
   imgURL: "",
   action: "",
+  likeCount: 0,
+  commentCount: 0
 }
 
 const styles = StyleSheet.create({

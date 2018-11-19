@@ -10,11 +10,11 @@ export default class SubscribeHeader extends Component {
       <View style={styles.headerContainer}>
         <View style={{flex: 1}}>
           <TouchableOpacity style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-              <View>
+              <View style={{flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: "#fafcfd"}}>
                 <Image
-                  style={{width: 30, height: 30}}
-                  source={require('../../../resources/img/profile.png')} />
-                <Text style={{textAlign: 'center'}}>
+                  style={{width: 40, height: 40, borderRadius: 20}}
+                  source={{uri: this.props.profileImgURL}} />
+                <Text style={{textAlign: 'center', fontSize: 12, marginTop: 4}}>
                     {this.props.userName}
                   </Text>
               </View>
@@ -28,28 +28,28 @@ export default class SubscribeHeader extends Component {
 
               <TouchableOpacity>
               <View>
-                <Text style={styles.count}>1</Text>
+                <Text style={styles.count}>{this.props.blogCount}</Text>
                 <Text style={styles.category}>블로그</Text>
               </View>
               </TouchableOpacity>
 
               <TouchableOpacity>
               <View>
-                <Text style={styles.count}>5</Text>
+                <Text style={styles.count}>{this.props.postCount}</Text>
                 <Text style={styles.category}>포스트</Text>
               </View>
               </TouchableOpacity>
 
               <TouchableOpacity>
               <View>
-                <Text style={styles.count}>6</Text>
+                <Text style={styles.count}>{this.props.cafeCount}</Text>
                 <Text style={styles.category}>내 카페</Text>
               </View>
               </TouchableOpacity>
 
               <TouchableOpacity>
               <View>
-                <Text style={styles.count}>2</Text>
+                <Text style={styles.count}>{this.props.tvCount}</Text>
                 <Text style={styles.category}>네이버 TV</Text>
               </View>
               </TouchableOpacity>
@@ -75,7 +75,7 @@ export default class SubscribeHeader extends Component {
 
 SubscribeHeader.propTypes = {
   userName: PropTypes.string,
-  userProfile: PropTypes.string,
+  profileImgURL: PropTypes.string,
   blogCount: PropTypes.number,
   postCount: PropTypes.number,
   cafeCount: PropTypes.number,
@@ -84,8 +84,8 @@ SubscribeHeader.propTypes = {
 }
 
 SubscribeHeader.defaultProps = {
-  userName: "No Name",
-  userProfile: '../../../resources/img/profile.png',
+  userName: "",
+  profileImgURL: '../../../resources/img/profile.png',
   blogCount: 0,
   postCount: 0,
   cafeCount: 0,

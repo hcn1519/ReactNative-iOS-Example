@@ -7,6 +7,7 @@ export default class SectionListBasic extends Component {
 
   state = {
       loading: true,
+      userData: {},
       subscribeData: []
   }
 
@@ -16,17 +17,22 @@ export default class SectionListBasic extends Component {
 
     this.setState({
       loading: false,
+      userData: data.userData,
       subscribeData: data.MySubscription.map(item => ({
+        panTitle: item.panTitle,
+        panImgURL: item.panImgURL,
         title: item.title,
         imgURL: item.imgURL,
-        action: item.action
+        action: item.action,
+        likeCount: item.likeCount,
+        commentCount: item.commentCount
       })),
     });
   }
 
   sectionList() {
     return([
-      {title: 'Title1', data: this.state.subscribeData}
+      {userData: this.state.userData, data: this.state.subscribeData}
     ])
   }
 
@@ -35,25 +41,34 @@ export default class SectionListBasic extends Component {
       <SafeAreaView style={styles.container}>
       <SectionList
         renderItem={({item, index, section}) => (
-
           <View style={{height: 200}}>
             <SubscribeCell
+              panTitle={item.panTitle}
+              panImgURL={item.panImgURL}
               title={item.title}
               imgURL={item.imgURL}
+              likeCount={item.likeCount}
+              commentCount={item.commentCount}
               action={item.action}
               />
           </View>
         )}
-        renderSectionHeader={({section: {title}}) => (
-          <View style={{flex: 1, height: 100, backgroundColor: "#fafcfd"}}>
-            <SubscribeHeader />
+        renderSectionHeader={({section: {userData}}) => (
+          <View style={{flex: 1, height: 100}}>
+            <SubscribeHeader
+              userName={userData.userName}
+              profileImgURL={userData.profileImgURL}
+              blogCount={userData.blogCount}
+              postCount={userData.postCount}
+              cafeCount={userData.cafeCount}
+              tvCount={userData.tvCount}
+              />
           </View>
         )}
         sections={this.sectionList()}
         keyExtractor={(item, index) => item + index}
         stickySectionHeadersEnabled={false}
       />
-
       </SafeAreaView>
     );
   }
