@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
-import { ActivityIndicator, SectionList, StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import { ActivityIndicator,
+         SectionList,
+         StyleSheet,
+         Text,
+         View,
+         SafeAreaView,
+         TouchableWithoutFeedback,
+         NativeModules } from 'react-native';
+
 import SubscribeCell from './cells/SubscribeCell';
 import SubscribeHeader from './cells/SubscribeHeader';
 
@@ -36,22 +44,30 @@ export default class SectionListBasic extends Component {
     ])
   }
 
+  onPress(item, index) {
+
+    NativeModules.RNTableViewListener.didSelectSectionListCell(item, 0, index);
+  }
+
   render() {
     return (
       <SafeAreaView style={styles.container}>
       <SectionList
+        onPress={(event) => {this.onPress(event)}}
         renderItem={({item, index, section}) => (
-          <View style={{height: 200}}>
-            <SubscribeCell
-              panTitle={item.panTitle}
-              panImgURL={item.panImgURL}
-              title={item.title}
-              imgURL={item.imgURL}
-              likeCount={item.likeCount}
-              commentCount={item.commentCount}
-              action={item.action}
-              />
-          </View>
+          <TouchableWithoutFeedback onPress={() => this.onPress(item, index)}>
+            <View style={{height: 200}}>
+              <SubscribeCell
+                panTitle={item.panTitle}
+                panImgURL={item.panImgURL}
+                title={item.title}
+                imgURL={item.imgURL}
+                likeCount={item.likeCount}
+                commentCount={item.commentCount}
+                action={item.action}
+                />
+            </View>
+          </TouchableWithoutFeedback>
         )}
         renderSectionHeader={({section: {userData}}) => (
           <View style={{flex: 1, height: 100}}>

@@ -167,6 +167,7 @@
 				7E60D4D421907915004C63DB /* Frameworks */,
 				7E60D4D521907915004C63DB /* Resources */,
 				B9F3242363DEBA9B875E1AA4 /* [CP] Embed Pods Frameworks */,
+				CE5BBCC421A3CCF700A77902 /* Run Script */,
 			);
 			buildRules = (
 			);
@@ -252,6 +253,20 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RNModule/Pods-RNModule-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		CE5BBCC421A3CCF700A77902 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		EBB805835AEEBA0EF93ACDEA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;

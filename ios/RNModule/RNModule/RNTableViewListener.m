@@ -14,6 +14,8 @@
 
 RCT_EXTERN_METHOD(didSelectTableViewCell:(NSInteger *)sectionIndex rowIndex:(NSInteger *)rowIndex)
 
+RCT_EXTERN_METHOD(didSelectSectionListCell:(NSDictionary *)userInfo sectionIndex:(NSInteger *)sectionIndex rowIndex:(NSInteger *)rowIndex)
+
 @end
 //RCT_EXTERN_METHOD(getCount:(NSString)name withAge:(NSNumber)age)
 //func getCount(_ name: NSString, withAge age: NSNumber) {...}
@@ -31,3 +33,8 @@ RCT_EXTERN_METHOD(didSelectTableViewCell:(NSInteger *)sectionIndex rowIndex:(NSI
 //time: date.getTime(),
 //description: '...',
 //});
+
+//@objc func download(_ fileUrl: String, callback: RCTResponseSenderBlock) -> Void
+//
+//# Bridging module
+//RCT_EXTERN_METHOD(download:(NSString*)fileUrl callback:(RCTResponseSenderBlock))

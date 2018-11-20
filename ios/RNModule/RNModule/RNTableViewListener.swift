@@ -15,11 +15,20 @@ class RNTableViewListener: NSObject {
     @objc static func requiresMainQueueSetup() -> Bool {
         return false
     }
-    @objc func didSelectTableViewCell(_ sectionIndex: NSInteger, rowIndex: NSInteger) {
+    
+    @objc func didSelectTableViewCell(_ sectionIndex: Int, rowIndex: Int) {
         
         let indexPath = IndexPath(row: rowIndex, section: sectionIndex)
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "didSelectTableViewCell"),
                                         object: nil, userInfo: ["indexPath": indexPath])
     }
+    
+    @objc func didSelectSectionListCell(_ userInfo: Dictionary<AnyHashable, Any>, sectionIndex: Int, rowIndex: Int) {
+        
+        let indexPath = IndexPath(row: rowIndex, section: sectionIndex)
+        print(indexPath)
+        print(userInfo)
+    }
 }
 //func getCount(_ name: NSString, withAge age: NSNumber) {...}
+

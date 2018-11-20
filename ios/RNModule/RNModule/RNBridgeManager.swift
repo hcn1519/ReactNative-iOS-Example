@@ -16,6 +16,7 @@ class RNBridgeManager {
     
     init() {
         self.bridge = RCTBridge(delegate: ReactNativeBridgeDelegate(), launchOptions: nil)
+        print(Bundle.main.url(forResource: "main", withExtension: "jsbundle"))
     }
 }
 
@@ -24,7 +25,7 @@ class ReactNativeBridgeDelegate: NSObject, RCTBridgeDelegate {
         #if targetEnvironment(simulator)
         return URL(string: "http://localhost:8081/index.bundle?platform=ios")
         #else
-        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
+        return Bundle.main.url(forResource: "main", withExtension: "jsbundle")
         #endif
     }
 }
