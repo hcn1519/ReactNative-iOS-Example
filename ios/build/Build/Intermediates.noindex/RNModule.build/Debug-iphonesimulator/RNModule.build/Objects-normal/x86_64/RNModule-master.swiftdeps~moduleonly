@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
-options: "f4f570ee96bb39219d4c4c73a6923033"
-build_time: [1541690312, 760151000]
-inputs:
-  "/Users/changnam/Desktop/rn/RNModule/ios/RNModule/ViewController.swift": [1541497513, 0]
-  "/Users/changnam/Desktop/rn/RNModule/ios/RNModule/AppDelegate.swift": [1541423509, 0]
-  "/Users/changnam/Desktop/rn/RNModule/ios/RNModule/Counter/Counter.swift": [1541690221, 0]
